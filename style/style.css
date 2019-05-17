@@ -368,7 +368,8 @@ nav a{
 
 .category-product .sign-hover-category img{
     top: 50%;
-    transform: translateY(50%);
+    left: 50%;
+    transform: translate(-50%,50%);
     display: inline-block;
     position: relative;
 }
