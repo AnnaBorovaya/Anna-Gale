@@ -603,6 +603,9 @@ nav a{
     form, nav, .inner-right {
         display: none
     }
+    .inner-left h1 span {
+        display: block
+    }
 }
 
 @media(max-width: 599px) {
@@ -632,5 +635,8 @@ nav a{
     }
     .inner-left{
         padding: 100px 15px; 
+    }
+    .inner-left h1 {
+        font-size: 28px;
     }
 }
